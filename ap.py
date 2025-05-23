@@ -1,4 +1,4 @@
-from Autores import Autor
+from autores import Autor
 from libro import Libro
 import os
 
@@ -24,7 +24,7 @@ def menu():
             nombres = input("Ingrese nombres del Autor: ")
             nacionalidad = input("Ingrese nacionalidad del Autor: ")
             autor1 = Autor()
-            autor1.AgregarAutor(nombres, apellidos, nacionalidad, codigo)
+            autor1.AgregarAutor(codigo,apellidos, nombres,  nacionalidad )
             autores.append(autor1)
         elif opc == 2:
             for MisAutores in autores:
