@@ -1,4 +1,4 @@
-from autores import Autor
+from Autores import Autor
 from libro import Libro
 import os
 
